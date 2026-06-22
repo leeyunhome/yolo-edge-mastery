@@ -18,14 +18,12 @@ YOLOv8~v11 학습  →  Custom Backbone  →  Pruning / Quantization  →  Edge 
 ## Benchmark Results
 
 <!-- BENCHMARK_START -->
-| model | variant | phase | metric | value |
-|-------|---------|-------|--------|-------|
-| yolov8n | baseline | phase1 | FPS | 63.1 |
-| yolov8n | baseline | phase1 | params_M | 3.2 |
-| yolov8s | baseline | phase1 | FPS | 65.0 |
-| yolov8s | baseline | phase1 | params_M | 11.2 |
-| yolov8m | baseline | phase1 | FPS | 54.4 |
-| yolov8m | baseline | phase1 | params_M | 25.9 |
+### phase1
+| 모델 | 크기(MB) | params(M) | FPS | mAP@0.5 | mAP@0.5:0.95 |
+|------|---|---|---|---|---|
+| yolov8m | 103.5 | 25.9 | 54.4 | 0.781 | 0.608 |
+| yolov8n | 12.6 | 3.2 | 63.1 | 0.605 | 0.445 |
+| yolov8s | 44.6 | 11.2 | 65.0 | 0.759 | 0.585 |
 <!-- BENCHMARK_END -->
 
 ---
