@@ -4,7 +4,7 @@
 
 ## 프로젝트 목적
 
-(주)미스릴 AI Software Engineer (Vision & MLOps Specialist) 포지션 지원을 위한 포트폴리오 레포지토리. YOLO 모델 설계 → 경량화(Pruning/Quantization) → 엣지 배포 → MLOps 파이프라인까지 End-to-End 전문성을 실증합니다.
+YOLO 모델 설계 → 경량화(Pruning/Quantization) → 엣지 배포 → MLOps 파이프라인까지 End-to-End 전문성을 실증하는 포트폴리오 레포지토리.
 
 목표 수준: 경력 7년 이상. 모든 작업은 면접에서 구체적으로 설명 가능한 수치 벤치마크를 도출해야 합니다:  
 "원본 대비 크기 X% 감소 / 속도 B배 향상 / mAP C% 하락"

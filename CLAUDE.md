@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Purpose
 
-Portfolio repository for the AI Software Engineer (Vision & MLOps Specialist) position at (주)미스릴. Demonstrates end-to-end expertise from YOLO model design → pruning/quantization → edge deployment → MLOps pipeline.
+Portfolio repository demonstrating end-to-end expertise from YOLO model design → pruning/quantization → edge deployment → MLOps pipeline.
 
 Target: 7-year+ experience level. All work should produce quantitative benchmarks suitable for interview discussion: "Original: X size/Y FPS/Z mAP → Optimized: A% smaller / B× faster / C% mAP loss."
 

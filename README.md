@@ -2,7 +2,7 @@
 
 End-to-end YOLO pipeline: custom backbone → pruning/quantization → TensorRT/OpenVINO edge deployment + MLOps
 
-> Portfolio for AI Software Engineer (Vision & MLOps Specialist) — (주)미스릴
+> Portfolio — AI Software Engineer (Vision & MLOps Specialist)
 
 ---
 
