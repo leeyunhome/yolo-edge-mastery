@@ -18,6 +18,13 @@ venv/
 runs/
 outputs/
 
+# 추론 중 다운로드된 샘플 이미지
+*.jpg
+*.jpeg
+*.png
+*.mp4
+!benchmarks/*.png
+
 # MLflow
 mlruns/
 
@@ -27,7 +34,6 @@ data/
 
 # Jupyter
 .ipynb_checkpoints/
-*.ipynb
 
 # IDE
 .vscode/

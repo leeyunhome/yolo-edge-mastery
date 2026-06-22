@@ -1,1 +1,7 @@
 model_name,variant,phase,metric_type,baseline_value,optimized_value,improvement_pct,notes
+yolov8n,baseline,phase1,FPS,-,63.1,-,
+yolov8n,baseline,phase1,params_M,-,3.2,-,
+yolov8s,baseline,phase1,FPS,-,65.0,-,
+yolov8s,baseline,phase1,params_M,-,11.2,-,
+yolov8m,baseline,phase1,FPS,-,54.4,-,
+yolov8m,baseline,phase1,params_M,-,25.9,-,
