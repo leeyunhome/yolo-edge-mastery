@@ -1,0 +1,44 @@
+# =====================================================================
+# 환경 설정 (conda 권장)
+#
+#   conda create -n yolo-edge python=3.10 -y
+#   conda activate yolo-edge
+#   conda install pytorch torchvision pytorch-cuda=12.1 -c pytorch -c nvidia
+#   pip install -r requirements.txt
+#
+# TensorRT: https://docs.nvidia.com/deeplearning/tensorrt/install-guide/
+# GStreamer: conda install -c conda-forge gstreamer gst-plugins-base python-gst
+# =====================================================================
+
+# Phase 1-2: YOLO 학습 및 커스텀 백본
+ultralytics>=8.0.0
+# torch / torchvision: conda로 설치 권장 (CUDA 자동 매칭)
+# torch>=2.0.0
+# torchvision>=0.15.0
+
+# Phase 3: Pruning
+torch-pruning>=1.3.0
+
+# Phase 4: Quantization
+# torch.quantization은 PyTorch 내장
+
+# Phase 5: 엣지 배포
+onnx>=1.14.0
+onnxruntime>=1.16.0
+# tensorrt: NVIDIA 공식 설치 방법 사용 (pip 미지원)
+# openvino: pip install openvino
+
+# Phase 6: MLOps
+mlflow>=2.8.0
+
+# Phase 7: 영상 처리
+ffmpeg-python>=0.2.0
+# gst-python: 시스템 패키지로 설치 (apt install python3-gst-1.0)
+
+# 공통 유틸리티
+numpy>=1.24.0
+opencv-python>=4.8.0
+matplotlib>=3.7.0
+pandas>=2.0.0
+tqdm>=4.65.0
+PyYAML>=6.0

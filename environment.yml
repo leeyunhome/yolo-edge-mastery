@@ -1,0 +1,33 @@
+name: yolo-edge
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch>=2.0
+  - torchvision
+  - pytorch-cuda=12.1
+  # Phase 7: GStreamer (conda-forge로 비Python 의존성까지 해결)
+  - gstreamer
+  - gst-plugins-base
+  - gst-plugins-good
+  - python-gst
+  - pip
+  - pip:
+      - ultralytics>=8.0.0
+      - torch-pruning>=1.3.0
+      - onnx>=1.14.0
+      - onnxruntime>=1.16.0
+      - openvino
+      - mlflow>=2.8.0
+      - ffmpeg-python>=0.2.0
+      - numpy>=1.24.0
+      - opencv-python>=4.8.0
+      - matplotlib>=3.7.0
+      - pandas>=2.0.0
+      - tqdm>=4.65.0
+      - PyYAML>=6.0
+# TensorRT는 NVIDIA 공식 가이드로 별도 설치
+# https://docs.nvidia.com/deeplearning/tensorrt/install-guide/
