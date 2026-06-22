@@ -22,10 +22,19 @@ YOLOv8~v11 학습  →  Custom Backbone  →  Pruning / Quantization  →  Edge 
 |-------|---------|-------|--------|-------|
 | yolov8n | baseline | phase1 | FPS | 63.1 |
 | yolov8n | baseline | phase1 | params_M | 3.2 |
+| yolov8n | baseline | phase1 | size_MB | 12.6 |
+| yolov8n | baseline | phase1 | mAP50 | 0.605 |
+| yolov8n | baseline | phase1 | mAP50-95 | 0.445 |
 | yolov8s | baseline | phase1 | FPS | 65.0 |
 | yolov8s | baseline | phase1 | params_M | 11.2 |
+| yolov8s | baseline | phase1 | size_MB | 44.6 |
+| yolov8s | baseline | phase1 | mAP50 | 0.759 |
+| yolov8s | baseline | phase1 | mAP50-95 | 0.585 |
 | yolov8m | baseline | phase1 | FPS | 54.4 |
 | yolov8m | baseline | phase1 | params_M | 25.9 |
+| yolov8m | baseline | phase1 | size_MB | 103.5 |
+| yolov8m | baseline | phase1 | mAP50 | 0.781 |
+| yolov8m | baseline | phase1 | mAP50-95 | 0.608 |
 <!-- BENCHMARK_END -->
 
 ---
